@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Whisper model cache (~3 GB, downloads on first run)
+models/
+
+# Logs
+logs/
+*.log
+
+# Voice corpus — never commit
+whisper_corpus/
+
+# Local config + secrets (this app shouldn't have any, but belt + suspenders)
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
